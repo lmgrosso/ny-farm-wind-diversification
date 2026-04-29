@@ -144,7 +144,7 @@ All figures saved to `/output/figures/`:
 ## 5. Key Findings
 
 **1. Wind income is structurally counter-cyclical.**
-Wind lease payments do not participate in commodity market downturns. The -0.415 correlation with dairy — the dominant income stream in Lewis, Wyoming, and Chautauqua counties, is the strongest diversification argument in the dataset.
+Wind lease payments do not participate in commodity market downturns. The -0.415 correlation with dairy, the dominant income stream in Lewis, Wyoming, and Chautauqua counties, is the strongest diversification argument in the dataset.
 
 **2. Wind is the most stable income stream on a NY farm.**
 At a coefficient of variation of 2.9%, wind lease income behaves more like a fixed salary than a market-dependent revenue stream. Corn (41%) and soybeans (39%) are roughly 14× more volatile.
@@ -156,7 +156,7 @@ The Sharpe ratio rises monotonically as wind weight increases. The maximum Sharp
 The minimum lease rate needed to produce a meaningful diversification benefit is $3,000–$6,000 per turbine per year. Current NY market rates of $6,000–$12,000 are roughly double this threshold across all capacity factor ranges tested.
 
 **5. The diversification argument does not depend on capacity factor.**
-The break-even line stays flat across the 20%–50% capacity factor range. The benefit comes from wind's negative correlation with farm income — not from electricity generation volume. Even lower-performing turbines provide income that is structurally independent of commodity markets.
+The break-even line stays flat across the 20%–50% capacity factor range. The benefit comes from wind's negative correlation with farm income, not from electricity generation volume. Even lower-performing turbines provide income that is structurally independent of commodity markets.
 
 ---
 
@@ -231,25 +231,25 @@ output/figures/
 
 ### Why Wind Works as a Diversifier
 
-A farm portfolio of corn, soybeans, and dairy is only superficially diversified. All three streams share common economic risk factors — commodity market cycles, weather-driven yield variation, and input cost inflation. The corn–soybean correlation of 0.919 means a bad year for one is almost always a bad year for the other.
+A farm portfolio of corn, soybeans, and dairy is only superficially diversified. All three streams share common economic risk factors: commodity market cycles, weather-driven yield variation, and input cost inflation. The corn–soybean correlation of 0.919 means a bad year for one is almost always a bad year for the other.
 
-Wind breaks this pattern entirely. Its negative correlations with all three agricultural streams mean it provides genuine independence from the dominant risk factor driving farm income volatility. The wind does not know what soybeans are trading at. In years when commodity markets are stressed — 2002, 2009, the dairy price collapse of 2015–16 — wind lease payments arrive independently. For farms carrying debt obligations, that income floor in the bad years has real financial value beyond what average income numbers alone suggest.
+Wind breaks this pattern entirely. Its negative correlations with all three agricultural streams mean it provides genuine independence from the dominant risk factor driving farm income volatility. The wind does not know what soybeans are trading at. In years when commodity markets are stressed — 2002, 2009, the dairy price collapse of 2015–16, wind lease payments arrive independently. For farms carrying debt obligations, that income floor in the bad years has real financial value beyond what average income numbers alone suggest.
 
 ### The Trade-Off
 
-Wind replaces land use rather than adding to it. A farmer leasing 25% of their land for turbines gives up some of the upside in the best commodity years. The teal line in the volatility comparison is lower on average — and this is correct. Wind lease income per acre ($112) is substantially lower than dairy income per acre ($2,600). The trade-off is a smoother, more predictable income path.
+Wind replaces land use rather than adding to it. A farmer leasing 25% of their land for turbines gives up some of the upside in the best commodity years. The teal line in the volatility comparison is lower on average, and this is correct. Wind lease income per acre ($112) is substantially lower than dairy income per acre ($2,600). The trade-off is a smoother, more predictable income path.
 
 For farms with fixed debt service obligations, that predictability matters more than its face value suggests. A farm earning $950 per acre reliably is in a better financial position than a farm averaging $1,200 but regularly dropping below $600 in bad commodity years.
 
 ### Policy Context
 
-New York's Climate Leadership and Community Protection Act (CLCPA) requires 70% renewable electricity by 2030. This requires significant new onshore wind development, much of it on agricultural land. This analysis suggests that wind–farm co-location should not be framed as a tradeoff. In high-wind agricultural counties, wind and farming work best together — wind adds the one thing corn, soybeans, and dairy cannot provide each other: income that is structurally independent of commodity markets.
+New York's Climate Leadership and Community Protection Act (CLCPA) requires 70% renewable electricity by 2030. This requires significant new onshore wind development, much of it on agricultural land. This analysis suggests that wind–farm co-location should not be framed as a tradeoff. In high-wind agricultural counties, wind and farming work best together, wind adds the one thing corn, soybeans, and dairy cannot provide each other: income that is structurally independent of commodity markets.
 
 ---
 
 ## 8. Limitations and Future Research
 
-- **Wind lease variability** is modeled using 25% random noise for mathematical purposes. Real lease payments are contractually fixed with 1–3% annual escalators — more stable than the model assumes.
+- **Wind lease variability** is modeled using 25% random noise for mathematical purposes. Real lease payments are contractually fixed with 1–3% annual escalators, more stable than the model assumes.
 - **County-level capacity factors** are estimated from state-level EIA data and NREL benchmarks rather than measured at the turbine level.
 - **Analysis is limited to four counties.** Generalizability across all NY agricultural counties with moderate wind resources (CF 22–27%) warrants further study.
 - **Future research** should incorporate actual lease contract terms, turbine-level generation data, and farm-level balance sheet analysis to more precisely quantify the debt service protection value of wind income.
