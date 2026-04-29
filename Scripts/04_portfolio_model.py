@@ -323,10 +323,3 @@ fig.savefig(os.path.join(FIG_DIR, "fig06_sharpe_ratio_improvement.png"),
             dpi=150, bbox_inches="tight")
 plt.close()
 print("  Saved: fig06_sharpe_ratio_improvement.png")
-
-print()
-print("=" * 60)
-print("Script 04 complete.")
-print()
-print("NEXT STEP: python scripts/05_sensitivity.py")
-print("=" * 60)

@@ -28,8 +28,8 @@ import time
 #API Keys
 #replace with your own key
 
-NASS_API_KEY = "5AEA53F2-AC91-3583-AAF5-28DF7F674D60"
-EIA_API_KEY  = "4KqRgPgnNVHjyr06QZqrfeEwZV8nMgL7anGaSCvN"
+NASS_API_KEY = "your_own_key"
+EIA_API_KEY  = "your_own_key"
 #%%
 #paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -209,11 +209,6 @@ if elec_price is not None:
     elec_price.to_csv(os.path.join(RAW_DIR, "nyiso_electricity_prices.csv"), index=False)
     print("  Saved: nyiso_electricity_prices.csv")
 
-print()
-print("EIA downloads complete.")
-print()
-print("=" * 60)
-print("Script 01 complete.")
 print(f"Raw files saved to: {RAW_DIR}")
 print()
 print("BEFORE running script 02, manually download these files")
@@ -226,6 +221,3 @@ print()
 print("  nrel_atb_2024.xlsx")
 print("  -> https://atb.nrel.gov/electricity/2024/data")
 print("  -> download Excel file, rename to nrel_atb_2024.xlsx")
-print()
-print("NEXT STEP: python scripts/02_clean_merge.py")
-print("=" * 60)

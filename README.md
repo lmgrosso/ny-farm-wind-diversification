@@ -129,22 +129,22 @@ All figures saved to `/output/figures/`:
 
 | Figure | What It Shows | Key Finding |
 |---|---|---|
-| `fig00_turbine_location_map.png` | NYS county map with turbine GPS locations | Real infrastructure in agricultural counties — not hypothetical |
+| `fig00_turbine_location_map.png` | NYS county map with turbine GPS locations | Real infrastructure in agricultural counties, not hypothetical |
 | `fig01_county_capacity_factors.png` | Installed capacity and CF by county | Lewis leads at 36.5%; all four counties are economically viable |
-| `fig02_capacity_factor_trend.png` | NY state average CF trend 2005–2024 | +1.05% per year improvement — technology is getting better |
+| `fig02_capacity_factor_trend.png` | NY state average CF trend 2005–2024 | +1.05% per year improvement: technology is getting better |
 | `fig03_correlation_heatmap.png` | Correlation matrix of all four income streams | Wind is counter-cyclical: negative correlations with all three farm streams |
 | `fig04_income_volatility_comparison.png` | Coefficient of variation by income stream | Wind CV = 2.9% vs corn 41%, soy 39%, dairy 19% |
 | `fig05_efficient_frontier.png` | 10,000 simulated portfolios — risk vs return | Max Sharpe portfolio at 40% wind weight |
 | `fig06_sharpe_ratio_improvement.png` | Sharpe ratio by wind portfolio weight | Rises monotonically from 0% to 35% wind |
-| `fig07_sensitivity_heatmap.png` | Sharpe improvement across CF × lease rate grid | All cells positive — wind adds value under every tested scenario |
-| `fig08_breakeven_analysis.png` | Minimum viable lease rate by capacity factor | Break-even $3k–$6k; current NY market $6k–$12k — comfortably above threshold |
+| `fig07_sensitivity_heatmap.png` | Sharpe improvement across CF × lease rate grid | All cells positive: wind adds value under every tested scenario |
+| `fig08_breakeven_analysis.png` | Minimum viable lease rate by capacity factor | Break-even $3k–$6k; current NY market $6k–$12k: comfortably above threshold |
 
 ---
 
 ## 5. Key Findings
 
 **1. Wind income is structurally counter-cyclical.**
-Wind lease payments do not participate in commodity market downturns. The -0.415 correlation with dairy — the dominant income stream in Lewis, Wyoming, and Chautauqua counties — is the strongest diversification argument in the dataset.
+Wind lease payments do not participate in commodity market downturns. The -0.415 correlation with dairy — the dominant income stream in Lewis, Wyoming, and Chautauqua counties, is the strongest diversification argument in the dataset.
 
 **2. Wind is the most stable income stream on a NY farm.**
 At a coefficient of variation of 2.9%, wind lease income behaves more like a fixed salary than a market-dependent revenue stream. Corn (41%) and soybeans (39%) are roughly 14× more volatile.

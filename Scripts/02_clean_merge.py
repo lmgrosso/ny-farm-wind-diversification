@@ -336,9 +336,3 @@ print(panel_complete[["corn_rev","soy_rev","dairy_rev","wind_rev"]].corr().round
 
 panel_complete.to_csv(os.path.join(CLEAN_DIR, "panel.csv"), index=False)
 print(f"\n  Saved: panel.csv")
-print()
-print("=" * 60)
-print("Script 02 complete.")
-print()
-print("NEXT STEP: python scripts/03_wind_analysis.py")
-print("=" * 60)

@@ -480,10 +480,3 @@ if cf_df is not None:
     )
     plt.close()
     print("  Saved: fig02_capacity_factor_trend.png")
-
-print()
-print("=" * 60)
-print("Script 03 complete.")
-print()
-print("NEXT STEP: python scripts/04_portfolio_model.py")
-print("=" * 60)

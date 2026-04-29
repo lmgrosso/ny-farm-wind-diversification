@@ -282,12 +282,3 @@ fig.savefig(os.path.join(FIG_DIR, "fig08_breakeven_analysis.png"),
             dpi=150, bbox_inches="tight")
 plt.close()
 print("  Saved: fig08_breakeven_analysis.png")
-
-print()
-print("=" * 60)
-print("Script 05 complete — all analysis finished.")
-print()
-print("All 8 figures saved to: output/figures/")
-print()
-print("FINAL STEP: Update README.md with results and push to GitHub")
-print("=" * 60)
